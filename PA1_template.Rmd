@@ -71,7 +71,7 @@ fullds[,"steps"] <- xt
 Repeat steps from "Mean total number of steps taken per day" section
 ```{r}
 stdate <- aggregate(fullds$steps, 
-                         list(date = fullds$date), mean)
+                         list(date = fullds$date), sum)
 colnames(stdate) <- c("date", "steps")
 hist(stdate$steps, xlab="Total number of steps", main = "Total number of steps taken each day", breaks = 20)
 ```
