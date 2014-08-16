@@ -1,7 +1,5 @@
----
-title: "Activity report"
-output: html_document
----
+Activity Report
+===============
 
 ###Loading and preprocessing the data
 
